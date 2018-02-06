@@ -1,0 +1,721 @@
+DEBUG:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.bitfinex.com
+DEBUG:requests.packages.urllib3.connectionpool:https://api.bitfinex.com:443 "GET /v1/symbols HTTP/1.1" 200 None
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:00.548776
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:03.714474
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:34:05.976368
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:06.231153
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:17.384775
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:18.097894
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 106, in receive
+    if(result[1] and "hb" not in result[1]):
+KeyError: 1
+
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:18.167206
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:34:18.608863
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:34:18.775383
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:20.271148
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:21.340744
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:34:22.453866
+DEBUG:root:*** Broke connection, but continuing. Handshake status 429
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:Traceback (most recent call last):
+  File "run.py", line 124, in receive
+    bfx.receive(conn_info, result)
+  File "run.py", line 103, in receive
+    if(result[1] == "te"):
+KeyError: 1
+
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:23.244373
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:34:23.958546
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:34:25.062289
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:25.475299
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:26.286874
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:34:27.452966
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:34:28.985881
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:29.203598
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:29.615651
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:34:30.976513
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:34:32.470944
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:34:32.519115
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:32.575380
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:33.570067
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:34:35.576346
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:35.580740
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:34:36.812978
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:34:36.850739
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:37.755378
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:39.716879
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:40.086990
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:41.777927
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:34:42.214077
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:34:42.253694
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:34:43.107584
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:45.306837
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:45.858859
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:34:47.998462
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:48.423460
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:34:48.686125
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:49.793108
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:53.166448
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:34:53.399846
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:53.440439
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:34:54.285086
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:34:55.792903
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:34:55.913164
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:34:56.533019
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:34:57.108035
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:00.939109
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:01.042477
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:01.987200
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:03.278547
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:04.511183
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:04.648464
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:08.213091
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:08.509480
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:35:08.717140
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:09.163079
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:09.249486
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:10.191395
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:12.830712
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:13.882297
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:15.189593
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:16.477845
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:17.317543
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:27.851867
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:28.930539
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:29.988330
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:35:30.452676
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:30.518897
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:32.586953
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:33.098368
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:33.189522
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:33.267472
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:33.625868
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:34.230986
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:35:34.895697
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:35.537063
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:35.997111
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:37.822974
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:38.319319
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:38.458054
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:38.547441
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:35:40.053030
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:40.764981
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:41.545866
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:43.105038
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:43.147811
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:43.713215
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:35:43.764504
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:44.021926
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:46.480097
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:35:46.766600
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:47.342419
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:47.392691
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:47.450749
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:49.624564
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:49.734220
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:35:51.196364
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:51.924640
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:52.771050
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:52.862252
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:54.808582
+DEBUG:root:trades *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:35:54.944620
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:55.644908
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:35:56.454003
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:56.929268
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:35:59.241016
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:35:59.370890
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:35:59.380892
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:35:59.804513
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:36:00.168464
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:01.337302
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:02.005852
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:02.762044
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:36:03.157473
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:03.422344
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:36:04.200416
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:04.544928
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:04.766569
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:06.651444
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:08.978720
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:09.250612
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:36:09.253330
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:36:10.149529
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:10.720800
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:11.975971
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:12.095661
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:12.330535
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:36:12.970648
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:36:14.402239
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:14.888641
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:15.513872
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:16.433597
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:36:17.271130
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:18.632329
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:18.713638
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:36:19.548733
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:30.952124
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:36:31.046915
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:31.220875
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:31.226262
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:31.237450
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:31.305486
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:36:31.453522
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:32.806250
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:33.329817
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:36:33.944525
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:33.951322
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:35.922873
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:36.326890
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:36:37.373481
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:39.604091
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:36:40.663431
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:40.759826
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:40.847633
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:42.387862
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:43.810711
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:36:44.077047
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:45.262691
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:36:45.584649
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:45.725386
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:46.843876
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:48.195179
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:50.809547
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:36:51.506248
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:36:52.201455
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:36:52.328773
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:54.025231
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:54.118927
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:54.897792
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:36:58.614250
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:36:58.877972
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:00.102916
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:37:00.474447
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:00.767749
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:02.823305
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:03.087920
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:05.200067
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:37:05.478505
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:06.472943
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:06.800142
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:06.924264
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:08.917432
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:09.769486
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:10.195023
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:37:10.835779
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:12.753783
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:12.988238
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:13.407479
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:14.586822
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:14.644860
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:14.783325
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:14.980349
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:37:16.860454
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:17.266922
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:17.476511
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:17.954282
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:20.077618
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:20.229115
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:24.657834
+DEBUG:root:trades *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:30.731106
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:37:31.951203
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:32.121270
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:32.198839
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:32.332861
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:33.706550
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:33.794313
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:33.855070
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:34.411681
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:37:35.881282
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:36.027396
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:36.640650
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:36.656519
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:38.596146
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:39.722186
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:39.964263
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:41.557307
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:37:41.561230
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:41.949869
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:43.488055
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:44.986442
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:45.310350
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:45.581239
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:46.454230
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:37:46.527912
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:48.147826
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:48.591317
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:49.456165
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:49.631722
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:52.102202
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:37:52.205766
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:52.804440
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:53.867947
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:54.102083
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:37:54.967569
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:37:56.989186
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:37:57.175139
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:37:59.528725
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:00.073479
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:00.149744
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:00.424650
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:00.902716
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:01.818440
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:03.780438
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:04.161623
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:04.483199
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:05.364094
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:05.706226
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:06.471628
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:07.458295
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:07.472625
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:07.829103
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:09.451045
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:09.863976
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:10.415790
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:10.701997
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:10.863478
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:11.709613
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:12.209458
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:12.287664
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:13.167047
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:13.393968
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:13.859376
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:14.466193
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:14.675998
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:15.105011
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:17.608881
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:17.850888
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:21.093208
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:28.336226
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:28.832147
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:29.124267
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:29.742020
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:30.647747
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:30.985779
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:31.080814
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:31.206862
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:32.598361
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:32.934197
+DEBUG:root:trades *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:33.854559
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:34.572427
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:34.890216
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:35.540099
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:37.005364
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:37.637645
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:38.033308
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:38.667765
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:39.609158
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:39.667915
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:40.825477
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:40.907497
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:41.180190
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:43.074752
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:43.642738
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:43.738279
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:44.268140
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:45.400980
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:46.024347
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:46.897256
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:48.189588
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:48.248592
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:49.402656
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:49.654265
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:49.992511
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:50.445238
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:50.877338
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:51.295374
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:52.034915
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:53.427194
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:53.491906
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:53.913407
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:54.463085
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:38:54.737565
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:38:56.380153
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:38:57.026347
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:38:57.182569
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:38:58.227845
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:00.169732
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:01.006334
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:39:01.047864
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:01.939362
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:03.136844
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:39:03.298908
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:03.886181
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:05.801232
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:06.091152
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:39:07.446960
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:39:08.245804
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:08.256663
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:09.882622
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:09.918468
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:39:13.100444
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:13.102973
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:13.548749
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:39:13.983644
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:14.294845
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:15.259279
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:16.510792
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:26.811689
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:39:27.437545
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:39:27.912251
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:28.255558
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:28.259764
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:28.298523
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:30.467273
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:30.469397
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:31.497536
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:39:32.466780
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:39:32.862011
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:33.065535
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:33.801688
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:33.920075
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:36.411914
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:36.727524
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:39:37.378241
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:37.532203
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:37.980606
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:38.232143
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:39:39.315010
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:40.533046
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:40.838671
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:41.198112
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:42.443232
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:39:42.786514
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:39:43.557306
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:44.555837
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:44.565854
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:46.982501
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:39:47.186141
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:47.505571
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:47.556537
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:39:49.623612
+DEBUG:root:trades *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:50.119136
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:50.138096
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:39:51.007886
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:39:51.242032
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:51.946848
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:39:52.007997
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:39:53.411118
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:39:54.603167
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.526539
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.641755
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.660447
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.675193
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.691314
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.708519
+DEBUG:root:trades *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:21.710195
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.723380
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.739472
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.752993
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:21.849672
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:21.863218
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:21.874605
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:21.885075
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:21.896762
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:21.910121
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:21.912022
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:21.966856
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:22.004621
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:22.022329
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:22.042349
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:22.044834
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:22.064319
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:22.077868
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:22.086870
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:22.101471
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:22.110586
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:22.128291
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:22.137996
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:22.146921
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:22.240296
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:22.341191
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:23.094168
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:23.972672
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:24.254122
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:24.292083
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:24.322651
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:24.352446
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:24.374590
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:24.375678
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:24.391993
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:24.410455
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:26.029794
+DEBUG:root:trades *** E: Bitfinex || C: etcbtc || Added 100 rows || 2018-02-06 14:40:26.235560
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:26.624856
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:27.706498
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:27.825948
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:28.079994
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:28.228718
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:28.820091
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:29.227714
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:30.469688
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:30.522892
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:31.129309
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:31.573377
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:31.640529
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:32.498286
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:33.158109
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:33.466064
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:33.560197
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:33.838111
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:34.484493
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:35.209102
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:35.791917
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:36.052159
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:36.629454
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:36.754366
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:36.781265
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:37.617514
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:37.794485
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:38.822894
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:39.066456
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:39.282272
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:39.710658
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:41.270639
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:41.293728
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:41.337536
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:41.587691
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:41.723824
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:43.808489
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:44.037668
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:44.866109
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:44.968776
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:45.065006
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:40:46.374285
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:46.449405
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:48.033827
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:40:48.422314
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:40:58.945811
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:40:59.345662
+DEBUG:root:trades *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:40:59.910213
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:00.031334
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:00.346305
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:00.456998
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:00.527491
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:01.645493
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:01.741574
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:02.572752
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:02.896572
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:03.098406
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:03.368501
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:03.631873
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:04.070233
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:04.335487
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:05.322312
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:06.116690
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:07.586627
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:07.708051
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:08.240916
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:08.265136
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:08.918901
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:10.121828
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:10.562330
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:11.092235
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:11.216972
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:11.880643
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:12.735144
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:14.467321
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:14.972352
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:15.090160
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:16.825608
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:16.956550
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:17.195924
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:18.292770
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:20.264309
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:20.550394
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:21.553079
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:21.757925
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:21.786574
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:23.478057
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:23.960289
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:24.239427
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:24.408933
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:26.119834
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:26.490360
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:28.485557
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:28.686278
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:28.702166
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:28.882535
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:29.399492
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:29.800513
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:30.970835
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:32.415846
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:33.425322
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:33.934819
+DEBUG:root:trades *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:34.002796
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:34.539944
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:34.542462
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:34.855205
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:35.459973
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:45.908047
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:46.833827
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:46.903960
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:47.472239
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:48.336396
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:49.005120
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:49.112481
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:50.703190
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:51.482046
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:51.594556
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:52.393219
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:53.325882
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:53.821936
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:53.903315
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:54.285537
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:56.350159
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:56.794067
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:41:57.399058
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:41:58.252209
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:41:59.061212
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:41:59.810756
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:41:59.912990
+DEBUG:root:trades *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:42:01.134664
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:42:02.382934
+DEBUG:root:book *** E: Bitfinex || C: ethusd || Added 100 rows || 2018-02-06 14:42:02.738870
+DEBUG:root:book *** E: Bitfinex || C: ethbtc || Added 100 rows || 2018-02-06 14:42:03.212995
+DEBUG:root:book *** E: Bitfinex || C: ltcbtc || Added 100 rows || 2018-02-06 14:42:04.016014
+DEBUG:root:trades *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:42:04.097859
+DEBUG:root:book *** E: Bitfinex || C: ltcusd || Added 100 rows || 2018-02-06 14:42:04.466463
+DEBUG:root:book *** E: Bitfinex || C: btcusd || Added 100 rows || 2018-02-06 14:42:04.805744
