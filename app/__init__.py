@@ -30,7 +30,7 @@ def create_wss_connections(symbols=None):
             if(symbol in bfx_symbols):
                 thread = bfx.create_connection(symbol, "trades")
                 thread = bfx.create_connection(symbol, "book")
-                print("STARTED LISTENING {}".format(symbol))
+                logging.debug("STARTED LISTENING {}".format(symbol))
 
             else:
                 logging.debug("*** {} not in symbol list".format(symbol))

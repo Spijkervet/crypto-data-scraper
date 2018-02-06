@@ -16,5 +16,5 @@ class Websockets:
     def subscribe(self, ws_conn, request):
         ws_conn.send(request)
 
-    def close(self, ws_conn):
+    def close(self, wss_conn):
         wss_conn.close()

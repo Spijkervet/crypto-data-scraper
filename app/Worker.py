@@ -34,10 +34,10 @@ class Worker(threading.Thread):
             pass
 
     def process(self, conn_info, result):
-        if(len(result) < 2): return
+        if(type(result) is dict): return
         if(conn_info["channel"] == "trades"):
             if(result[1] == "te"):
                 mongo.add_data(conn_info, {"exchange": conn_info["exchange"], "symbol": conn_info["symbol"],"order_id": result[2][0], "tr_ts": result[2][1], "amount": result[2][2], "price": result[2][3]})
         elif(conn_info["channel"] == "book"):
-            if(result[1] and "hb" not in result[1]):
+            if(result[1] and "hb" not in result[1] and len(result) < 3):
                 mongo.add_data(conn_info, {"exchange": conn_info["exchange"], "symbol": conn_info["symbol"], "price": result[1][0], "count": result[1][1], "amount": result[1][2]})
