@@ -13,9 +13,9 @@ Install Python 3 and MongoDB on the machine you want to run this program on.
 
 
 ### Installing
-
+Run the following command to install the required Python packages:
 ```
-Run pip3 install -r requirements to install the required Python packages.
+ pip3 install -r requirements
 ```
 
 ## Deployment
