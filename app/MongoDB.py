@@ -1,7 +1,8 @@
 import logging
 import datetime
 from pymongo import MongoClient
-from settings import BULK_SIZE_LIMIT
+
+from .settings import BULK_SIZE_LIMIT
 
 class MongoDB:
     def __init__(self):

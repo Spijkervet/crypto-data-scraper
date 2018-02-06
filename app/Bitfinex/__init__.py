@@ -1,8 +1,8 @@
 import requests
 import json
 
-from Worker import Worker
-from settings import THREADS
+from ..Worker import Worker
+from ..settings import THREADS
 
 
 class Bitfinex:

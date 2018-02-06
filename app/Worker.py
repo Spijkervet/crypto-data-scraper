@@ -2,8 +2,8 @@ import threading
 import logging
 import traceback
 
-from Websockets import Websockets
-from MongoDB import MongoDB
+from .Websockets import Websockets
+from .MongoDB import MongoDB
 
 mongo = MongoDB()
 wss = Websockets()
