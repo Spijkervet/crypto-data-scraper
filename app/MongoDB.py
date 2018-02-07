@@ -1,4 +1,5 @@
 import logging
+import time
 import datetime
 from pymongo import MongoClient
 
@@ -15,7 +16,7 @@ class MongoDB:
         if(name not in self.bulk_data):
             self.bulk_data[name] = []
 
-        data["timestamp"] = datetime.datetime.utcnow()
+        data["timestamp"] = time.time()
         self.bulk_data[name].append(data)
         if(len(self.bulk_data[name]) >= BULK_SIZE_LIMIT):
             self.bulk_insert(conn_info, self.bulk_data[name])
