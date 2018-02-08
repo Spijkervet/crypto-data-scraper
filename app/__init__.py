@@ -29,7 +29,8 @@ def create_wss_connections(symbols=None):
         try:
             if(symbol in bfx_symbols):
                 thread = bfx.create_connection(symbol, "trades")
-                thread = bfx.create_connection(symbol, "book")
+                # thread = bfx.create_connection(symbol, "book")
+                # thread = bfx.create_connection(symbol, "book", "R0")
                 logging.debug("STARTED LISTENING {}".format(symbol))
 
             else:
@@ -40,6 +41,9 @@ def create_wss_connections(symbols=None):
             pass
 
 
+def websockets(args):
+    create_wss_connections(args)
+
 def main(args):
     global THREADS
     logging.basicConfig(filename="crypto.log", level=logging.DEBUG)
@@ -47,7 +51,8 @@ def main(args):
     std_err.setFormatter(logging.Formatter(logging.BASIC_FORMAT))
     logging.getLogger().addHandler(std_err)
 
-    create_wss_connections(args)
+
+    websockets(args)
 
     while len(THREADS) > 0:
         try:

@@ -1,6 +1,54 @@
 from pymongo import MongoClient
 import matplotlib.pyplot as plt
-from datetime import timedelta
+
+from datetime import timedelta, datetime
+
+def moving_average(db):
+    collection = db["trades"]
+    buyers = []
+    start_idx = 0
+    frame = 50
+    avg_list = []
+    length = collection.find({"symbol": "btcusd"}).count()
+    for i in range(length):
+        new_frame = frame+start_idx
+        coll = collection.find()[start_idx:new_frame]
+        average = 0
+        idx = 1
+        if coll.count() <= frame:
+            break
+        for obj in coll:
+            if obj["price"] > 5000 and obj["amount"] > 0:
+                idx += 1
+                average += obj["price"]
+                ts = obj["timestamp"]
+                # print("ID: {}, COLL: {}".format(i, obj["price"]))
+        # print(average, average / (idx - 1))
+        # print()
+        if(average > 7500):
+            print(average, idx)
+            avg_list.append([average / (idx), datetime.fromtimestamp(ts)])
+            start_idx += 1
+    print(avg_list)
+    return avg_list
+
+def get_cumulative_orders(db):
+    collection = db["orders"]
+    buyers = []
+    sellers = []
+    for obj in collection.find():
+        # print(obj["price"], obj["amount"])
+        if(obj["price"] > 5000 and obj["amount"] > 0):
+            buyers.append([round(obj["price"], 1), obj["amount"]])
+            # print(collection.find({"price": obj["price"]}).count())
+
+        if obj["price"] > 5000 and obj["amount"] < 0:
+            sellers.append([round(obj["price"], 1), obj["amount"]])
+    price_buy = [x[0] for x in buyers]
+    amount_buy = [x[1] for x in buyers]
+    price_sell = [x[0] for x in sellers]
+    amount_sell = [x[1] for x in sellers]
+    return price_buy, amount_buy, price_sell, amount_sell
 
 def get_trades(db):
     collection = db["trades"]
@@ -61,23 +109,30 @@ def get_orders(db):
     return ts_buy, pr_buy, ts_sell, pr_sell, ts_buy_count, pr_buy_count, ts_sell_count, pr_sell_count
 
 if __name__ == "__main__":
+
     client = MongoClient("localhost", 27017, maxPoolSize=50)
     db = client.crypto
 
-    ts_buy, pr_buy, ts_sell, pr_sell, ts_buy_count, pr_buy_count, ts_sell_count, pr_sell_count = get_orders(db)
-    ts_buy_trade, pr_buy_trade, ts_sell_trade, pr_sell_trade = get_trades(db)
+
+    # price_buy, amount_buy, price_sell, amount_sell = get_cumulative_orders(db)
+    # ts_buy, pr_buy, ts_sell, pr_sell, ts_buy_count, pr_buy_count, ts_sell_count, pr_sell_count = get_orders(db)
+    # ts_buy_trade, pr_buy_trade, ts_sell_trade, pr_sell_trade = get_trades(db)
 
     fig, ax = plt.subplots()
-    buy = ax.plot(ts_buy, pr_buy, color='green', markersize=8, label='Bid')
-    sell = ax.plot(ts_sell, pr_sell, color='red', markersize=8, label='Ask')
+    # buy = ax.bar(price_buy, amount_buy, color='green', label='Bid')
+    # sell = ax.bar(price_sell, amount_sell, color='red', label='Ask')
 
-    trade_buy = ax.plot(ts_buy_trade, pr_buy_trade, color='blue', markersize=8, label='Trade Buy')
-    trade_sell = ax.plot(ts_sell_trade, pr_sell_trade, color='purple', markersize=8, label='Trade Sell')
+    # ax2 = ax.twinx()
+    # trade_buy = ax.plot(ts_buy_trade, pr_buy_trade, color='blue', markersize=8, label='Trade Buy')
+    # trade_sell = ax.plot(ts_sell_trade, pr_sell_trade, color='purple', markersize=8, label='Trade Sell')
 
-    ax2 = ax.twinx()
-    ax2.plot(ts_buy_count, pr_buy_count, color='pink', markersize=8, label='# Bids')
-    ax2.plot(ts_sell_count, pr_sell_count, color='orange', markersize=8, label='# Asks')
 
+    # ax2.plot(ts_buy_count, pr_buy_count, color='pink', markersize=8, label='# Bids')
+    # ax2.plot(ts_sell_count, pr_sell_count, color='orange', markersize=8, label='# Asks')
+    moving_avg = moving_average(db)
+    x = [x[1] for x in moving_avg]
+    y = [x[0] for x in moving_avg]
+    ax.plot(x, y, color='purple', markersize=8, label='Trade Sell')
 
     legend = ax.legend(loc='upper center', shadow=True)
 

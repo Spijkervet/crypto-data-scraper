@@ -22,11 +22,13 @@ class MongoDB:
             self.bulk_insert(conn_info, self.bulk_data[name])
 
     def bulk_insert(self, conn_info, bulk_data):
-        if(conn_info["channel"] == "book"):
+        if(conn_info["channel"] == "book" and conn_info["precision"] != "R0"):
             self.crypto_db.orders.insert_many(bulk_data, ordered=False)
+        elif(conn_info["channel"] == "book" and conn_info["precision"] == "R0"):
+            self.crypto_db.orders_raw.insert_many(bulk_data, ordered=False)
         elif(conn_info["channel"] == "trades"):
             self.crypto_db.trades.insert_many(bulk_data, ordered=False)
 
-        logging.debug("{} *** E: {} || C: {} || Added {} rows || {}".format(conn_info["channel"], conn_info["exchange"],
+        logging.debug("{} [{}] *** E: {} || C: {} || Added {} rows || {}".format(conn_info["channel"], conn_info["precision"], conn_info["exchange"],
             conn_info["symbol"], len(bulk_data), datetime.datetime.utcnow()))
         del bulk_data[:]

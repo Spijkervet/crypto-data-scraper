@@ -38,6 +38,9 @@ class Worker(threading.Thread):
         if(conn_info["channel"] == "trades"):
             if(result[1] == "te"):
                 mongo.add_data(conn_info, {"exchange": conn_info["exchange"], "symbol": conn_info["symbol"],"order_id": result[2][0], "tr_ts": result[2][1], "amount": result[2][2], "price": result[2][3]})
-        elif(conn_info["channel"] == "book"):
+        elif(conn_info["channel"] == "book" and conn_info["precision"] != "R0"):
             if(result[1] and "hb" not in result[1] and len(result) < 3 and type(result[1][0]) is not list):
                 mongo.add_data(conn_info, {"exchange": conn_info["exchange"], "symbol": conn_info["symbol"], "price": result[1][0], "count": result[1][1], "amount": result[1][2]})
+        elif(conn_info["channel"] == "book" and conn_info["precision"] == "R0"):
+            if(result[1] and "hb" not in result[1] and len(result) < 3 and type(result[1][0]) is not list):
+                mongo.add_data(conn_info, {"exchange": conn_info["exchange"], "symbol": conn_info["symbol"], "order_id": result[1][0], "price": result[1][1], "amount": result[1][2]})

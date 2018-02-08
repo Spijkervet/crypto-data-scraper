@@ -25,22 +25,24 @@ class Bitfinex:
         self.symbols = json.loads(response.text)
         return self.symbols
 
-    def create_connection(self, symbol, channel):
+    def create_connection(self, symbol, channel, precision=""):
         conn_info = dict()
         conn_info["exchange"] = "Bitfinex"
         conn_info["symbol"] = symbol
         conn_info["channel"] = channel
-        conn_info["name"] = "bfx_" + channel + "_" + symbol
+        conn_info["precision"] = precision
+        conn_info["name"] = "bfx_" + channel + "_" + symbol + "_" + precision
         conn_info["url"] = self.websockets_url
-        conn_info["subscription"] = self.subscribe(conn_info["channel"], conn_info["symbol"])
+        conn_info["subscription"] = self.subscribe(conn_info["channel"], conn_info["symbol"], precision)
         new_thread = Worker(conn_info)
         THREADS.append(new_thread)
         new_thread.start()
         return new_thread
 
-    def subscribe(self, channel, symbol):
+    def subscribe(self, channel, symbol, precision):
         return json.dumps({
             "event": "subscribe",
             "channel": channel,
-            "symbol": symbol
+            "symbol": symbol,
+            "prec": precision
         })
